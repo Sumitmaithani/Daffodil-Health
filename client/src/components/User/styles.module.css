@@ -1,0 +1,323 @@
+.circles {
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+
+.circle1 {
+	width: 180px;
+	height: 180px;
+	background: rgb(247, 199, 126);
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+	border-radius: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 50px auto;
+}
+
+.circle2 {
+	width: 40px;
+	height: 40px;
+	background: rgb(247, 199, 126);
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+	border-radius: 90px;
+	position: absolute;
+	top: 12%;
+	left: 22%;
+	transform: translate(-50%, -50%);
+}
+
+.circle3 {
+	background: rgb(247, 199, 126);
+	border-bottom-right-radius: 140px;
+	border-top-right-radius: 140px;
+	height: 140px;
+	width: 80px;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
+
+.circle4 {
+	background: rgb(247, 199, 126);
+	border-bottom-left-radius: 140px;
+	border-top-left-radius: 140px;
+	height: 90px;
+	width: 40px;
+	position: absolute;
+	top: 15%;
+	right: 0;
+}
+
+.signup {
+	width: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.form__container {
+	padding-top: 85px;
+}
+
+.head {
+	position: relative;
+	display: flex;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	color: rgb(88, 85, 85);
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	left: -85px;
+}
+
+.signup_container_wrap {
+	padding-bottom: 40px;
+}
+
+.input1 {
+	width: 320px;
+	outline: none;
+	border: 1px solid grey;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 14px;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 1.5em 0;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+	background-image: url(../../images/user.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent: 20px;
+	background-size: 20px;
+	background-position: 5px 16px;
+}
+
+.input2 {
+	width: 320px;
+	outline: none;
+	border: 1px solid grey;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 14px;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 1.5em 0;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+	background-image: url(../../images/phone.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent: 20px;
+	background-size: 20px;
+	background-position: 8px 16px;
+}
+
+.input3 {
+	width: 320px;
+	outline: none;
+	border: 1px solid grey;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 14px;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 1.5em 0;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+	background-image: url(../../images/city.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent: 20px;
+	background-size: 20px;
+	background-position: 8px 16px;
+}
+
+input#email {
+	background-image: url('https://cdn-icons.flaticon.com/png/128/2889/premium/2889676.png?token=exp=1655520291~hmac=46bc3e4b639e74a8d9930f4e960ddd96');
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent: 20px;
+	/* Extra Styling */
+	padding: 5px 3px;
+	transition: 0.3s;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 330px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	font-weight: 700;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background: rgb(133, 131, 131);
+}
+
+.btn {
+	background: rgb(50, 50, 240);
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	padding: 8px;
+	align-items: center;
+	width: 40px;
+}
+
+.camera {
+	margin: 3px;
+}
+
+#html_btn {
+	display: none;
+}
+
+form:valid button[type="submit"] {
+	background-color: blue;
+	color: #fff;
+}
+
+.signup_media {
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+}
+
+.signup_icon {
+	width: 20px;
+	margin: 10px 10px;
+	cursor: pointer;
+}
+
+.signup_login {
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	padding-right: 10px;
+	gap: 8px;
+	cursor: pointer;
+}
+
+
+.container {
+	width: 500px;
+	padding: 4px;
+}
+
+.select_wrapper {
+	background: url(../../images/camera.png) no-repeat;
+	background-size: 30px;
+	z-index: 111;
+	display: block;
+	position: absolute;
+	width: 33px;
+	height: 26px;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: -20px;
+	transform: translate(700%, -50%);
+	
+}
+
+#image_src {
+	width: 26px;
+	height: 26px;
+	margin-right: 100px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.image_uploader {
+	display: block;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+.img_img {
+	display: block;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -220px;
+}
+.error_msg {
+	width: 320px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	justify-content: center;
+	text-align: center;
+	margin: 10px auto;
+}
+@media only screen and (min-width: 600px) {
+	.circle2 {
+		position: absolute;
+		top: 12%;
+		left: 42%;
+		transform: translate(-50%, -50%);
+	}
+
+	.circle3 {
+		position: absolute;
+		top: 33%;
+		left: 39%;
+		transform: translate(-50%, -50%);
+	}
+
+	.circle4 {
+		position: absolute;
+		top: 15%;
+		right: 37%;
+		transform: translate(-50%, -50%);
+	}
+
+	.head {
+		left: -75px;
+	}
+	.select_wrapper {
+	transform: translate(2200%, -60%);
+	}
+}
